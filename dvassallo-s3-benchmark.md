@@ -1,4 +1,4 @@
-# Download benchmark by dvassallo/s3-benchmark
+# Download benchmark by dvassallo/s3-benchmark for Cross-Region transfer
 
 Measure S3 downloading performance using different thread counts and object sizes
 
