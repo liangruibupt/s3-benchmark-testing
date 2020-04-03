@@ -1,4 +1,6 @@
-# The aws s3 cli testing for Cross-Region transfer
+# The aws s3 cli testing for EC2 and S3 in different region transfer
+
+EC2 and S3 in different region transfer, it can also simulate on-primse datacenter virtual machine transfer data to AWS S3
 
 - [Multipart Upload support](http://docs.aws.amazon.com/AmazonS3/latest/dev/mpuoverview.html): If the files are over a certain size, the AWS CLI automatically breaks the files into smaller parts and uploads them in parallel. This is done to improve performance and to minimize impact due to network errors. Once all the parts are uploaded, Amazon S3 assembles them into a single object. 
 

@@ -1,6 +1,10 @@
 # Enable S3 Transfer Acceleration to improve upload and download performance
-http://s3-accelerate-speedtest.s3-accelerate.amazonaws.com/en/accelerate-speed-comparsion.html
-https://docs.aws.amazon.com/AmazonS3/latest/dev/transfer-acceleration.html
+
+EC2 and S3 in different region transfer, it can also simulate on-primse datacenter virtual machine transfer data to AWS S3
+
+- [S3 Transfer Acceleration](https://docs.aws.amazon.com/AmazonS3/latest/dev/transfer-acceleration.html)
+- [Accelerate speed comparsion](http://s3-accelerate-speedtest.s3-accelerate.amazonaws.com/en/accelerate-speed-comparsion.html)
+
 
 ## 3.1 Enabling Transfer Acceleration on a Bucket
 Use the Tokyo region S3 bucket which support `Transfer Acceleration` feature

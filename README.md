@@ -25,8 +25,9 @@ AWS Tokyo region: molex-mess-migration-tokyo
 
 ## Testing utility and test case
 - aws s3 cli
-1. [Cross-Region: Testing mixed upload and download with AWS S3 CLI](AWS-S3-CLI.md)
-2. [Cross-Region: Enable S3 Transfer Acceleration testing](Enable-S3-Transfer-Acceleration.md)
+1. [EC2 and S3 in different region: Testing mixed upload and download with AWS S3 CLI](AWS-S3-CLI.md)
+2. [EC2 and S3 in different region: Enable S3 Transfer Acceleration testing](Enable-S3-Transfer-Acceleration.md)
+3. [EC2 and S3 in same region: Testing mixed upload and download with AWS S3 CLI] TBD - Coming soon
 
 - 3rd party tools
 1. [Cross-Region: Download benchmark by dvassallo/s3-benchmark](dvassallo-s3-benchmark.md) 
