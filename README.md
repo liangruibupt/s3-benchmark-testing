@@ -27,11 +27,16 @@ AWS Tokyo region: molex-mess-migration-tokyo
 - aws s3 cli
 1. [EC2 and S3 in different region: Testing mixed upload and download with AWS S3 CLI](AWS-S3-CLI.md)
 2. [EC2 and S3 in different region: Enable S3 Transfer Acceleration testing](Enable-S3-Transfer-Acceleration.md)
-3. [EC2 and S3 in same region: Testing mixed upload and download with AWS S3 CLI] TBD - Coming soon
+3. [EC2 and S3 in same region: Testing mixed upload and download with AWS S3 CLI](AWS-S3-CLI-SyncTesting.md)
 
 - 3rd party tools
 1. [Cross-Region: Download benchmark by dvassallo/s3-benchmark](dvassallo-s3-benchmark.md) 
+
+    This utility multiple threads setting only up to 16, so the performance will be impact.
+
 2. [Cross-Region: Benchmark by christianbaun/ossperf](christianbaun-ossperf.md)
+
+    This utility multiple payload setting only up to 16MiB and multiple threads setting can leverage aws s3 configure if you use the aws s3 cli as testing command.
 
 ## Conclusion
 

@@ -114,11 +114,11 @@ mpstat -P ALL 10
 05:02:59 PM  all    2.63    0.00    0.70    0.00    0.00    0.65    0.00    0.00    0.00   96.02
 
 # Check the summary of uploaded files
-aws s3 ls --recursive s3://molex-mess-migration-hk/zhy-upload/test_smallfiles/ --region ap-east-1 | wc -l
+aws s3 ls --recursive s3://molex-mess-migration-hk/zhy-upload/test_mixfiles/ --region ap-east-1 | wc -l
 16368
 ```
 **Summary**:
 1. Based on the **real** output of **time** command, it took 2m45s to complete the copy of all directories and the files.
-3. The total 16368 files at a rate of 16368 / 165sec = 198.6 files/sec (40961 MiB / 165sec = 248.2 MiB/sec) using 100 parallel thread. 
+3. The total 16368 files at a rate of 16368 / 165sec = 99.2 files/sec (40961 MiB / 165sec = 248.2 MiB/sec) using 100 parallel thread. 
 4. When the file size larger than multipart_threshold=10 MiB, the multipart upload will be applied. 
 5. Running multiple commands in parallel to maximize throughput

@@ -33,7 +33,7 @@ Ningxia region to Hongkong region
 | :---------------- | :----------| :--------- | :-----------  | :-----------  |
 | Small files 16KB  | 53,248 (1666MiB) |  23 sec   | 2315.2 files/sec | 72.4 MiB/s  | 
 | Big files 512MB   | 780 (396863MiB) |  1178 sec | 0.662 files/sec  | 336.9 MiB/s |
-| Mix files 512K, 1M, 2M, ... 256M   | 16368 (40961MiB) |  165 sec | 198.6 files/sec  | 248.2 MiB/s |
+| Mix files 512K, 1M, 2M, ... 256M   | 16368 (40961MiB) |  165 sec | 99.2 files/sec  | 248.2 MiB/s |
 | Mix files Sync 512K, 1M, 2M, ... 256M   | 16368 (40961MiB) |  116 sec | 141.1 files/sec  | 353.1 MiB/s |
 | Mix files Cross Region Sync 512K, 1M, 2M, ... 16368 | 16368 (40961MiB) |  66 sec | 248 files/sec  | 620.6 MiB/s |
 

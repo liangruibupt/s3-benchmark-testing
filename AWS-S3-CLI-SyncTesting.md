@@ -218,4 +218,4 @@ delete: s3://molex-mess-migration-tokyo/crr-sync/test_randfiles/512/randfile_512
 1. Running the sync command to keep local and remote Amazon S3 locations synchronized over time. 
 2. Synchronizing can be much faster than creating a new copy of the data in many cases.
 3. Sync only handle the changed files
-4. Sync will not remove files in desitnation bucket when source delete the
+4. Sync will not remove files in desitnation bucket when source delete the files
